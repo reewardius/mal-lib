@@ -1,5 +1,5 @@
 # mal-lib
 ```
-> gcc -shared -fPIC -o libmalicious.so malicious.c
+> gcc -shared -fPIC -o libmalicious.so {name}.c
 > LD_PRELOAD=./libmalicious.so ls
 ```
